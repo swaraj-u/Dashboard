@@ -249,3 +249,96 @@ body{
      font-weight:800;
      color:green
  }
+
+ #newadd{
+    box-sizing:border-box;
+    padding:10px;
+    background-image:url(https://www.teahub.io/photos/full/96-961745_nature-wallpaper-phone.png);
+    background-size:cover;
+    background-position:center;
+}
+#topbar{
+    display:grid;
+    grid-template-rows:30px;
+    grid-template-columns:1fr 3fr 1fr 1fr;
+    box-sizing:border-box;
+    padding:5px;
+    border-bottom:2px solid black;
+}
+#topbar div{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   box-sizing:border-box;
+
+}
+#topbar div img{
+    width:50%;
+    height:100%;
+}
+#topbar div img:hover{
+    background-color:rgba(255, 255, 255, 0.4);
+    border-radius:10px;
+    cursor:pointer;
+}
+.note{
+    height:50px;
+    width:100%;
+    border-radius:10px;
+    box-sizing:border-box;
+    padding:5px 5px 5px 10px;
+    margin:5px 0px 5px 0px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction:row;
+}
+.notes{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    flex-direction:column;
+    color:white;
+}
+.edit{
+    height:100%;
+    width:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    box-sizing:border-box;
+    padding:5px;
+}
+.edit img{
+    width:100%;
+    height:100%;
+    opacity:0;
+    cursor:pointer;
+}
+.note:hover .edit img{
+    opacity:0.8;
+}
+.note:hover{
+    background-color:rgba(255, 255, 255, 0.4);
+}
+#add{
+    box-sizing:border-box;
+    padding:2px;
+    height:30px;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    border-radius:10px;
+    color:white;
+}
+#add img{
+    height:100%;
+    width:30px;
+    background-color:white;
+    border-radius:10px;
+    margin-right:5px;
+}
+#add:hover{
+    cursor:pointer;
+    background-color:rgba(255, 255, 255, 0.4);
+}
