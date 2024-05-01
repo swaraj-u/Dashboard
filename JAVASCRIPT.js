@@ -63,3 +63,20 @@ checkbox3.addEventListener('change', function() {
     complete.innerHTML="";
     },1000)
 }});
+
+let date = new Date(2024,4,1);
+let day = date.getDay();
+for(let i=0; i<day; i++){
+  let Date=document.createElement('div');
+  Date.setAttribute('class', 'dates');
+  Date.textContent = ' ';
+  let parentElement = document.getElementById('grid');
+  parentElement.appendChild(Date);
+}
+for(let i=1; i<=31; i++){
+  let Date=document.createElement('div');
+  Date.setAttribute('class', 'dates');
+  Date.textContent = i;
+  let parentElement = document.getElementById('grid');
+  parentElement.appendChild(Date);
+}
