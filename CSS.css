@@ -193,3 +193,59 @@ body{
     height:20px;
 }
 
+#BT{
+
+    display:flex;
+    flex-direction:column; 
+    background-image:url(https://i.pinimg.com/736x/59/6a/58/596a58346155aeeb5ec317682d64217d.jpg);
+    background-size:cover;
+    background-position:center;
+ }
+ #BTTitle{
+     height:50px;
+     width:100%;
+     border-bottom:2px solid black;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     display:flex;
+     justify-content:flex-start;
+     align-items:center;
+     font-size:30px;
+     color:#e3c3d2;
+ }
+ .blocks{
+     height:50px;
+     width:100%;
+     border-radius:10px;
+     box-sizing:border-box;
+     padding:5px;
+     margin:3px 0px 3px 0px;
+     display:flex;
+     justify-content:space-between;
+     align-items:center;
+     font-size:20px;
+     color:#e3c3d2;
+ }
+ .blocks:hover{
+     background-color:rgba(255, 255, 255, 0.2);
+ }
+ #income{
+     font-size:30px;
+     text-transform:bold;
+     font-weight:800;
+     color:green
+ }
+ 
+ 
+ 
+ #expense{
+     font-size:30px;
+     text-transform:bold;
+     font-weight:800;
+     color:red
+ }
+ #savings{
+     font-size:30px;
+     text-transform:bold;
+     font-weight:800;
+     color:green
+ }
