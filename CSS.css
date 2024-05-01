@@ -87,3 +87,56 @@ body{
     margin:5px;
     box-shadow:20px 20px 20px;
 }
+
+#calendar{
+    box-sizing:border-box;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    background-image:url(https://e0.pxfuel.com/wallpapers/269/543/desktop-wallpaper-beautiful-nature-atmosphere-sky-nature.jpg);
+    background-size:cover;
+    background-position:center;
+}
+#month{
+    height:30px;
+    width:100%;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    box-sizing:border-box;
+    color:blanchedalmond;
+    font-size:20px;
+    flex-shrink:0;
+}
+#grid{
+    width:100%;
+    height:100%;
+    display:grid;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#grid .dates{
+    background-color: rgba(255, 255, 255, 0.8);
+    box-sizing:border-box;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:10px;
+    border-radius:20px;
+}
+#grid div:hover{
+    background-color:black;
+    color:white;
+}
+#grid .days{
+    background-color:#f28090;
+    color:white;
+    box-sizing:border-box;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:10px;
+    border-radius:20px;
+}
