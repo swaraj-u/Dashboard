@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width:100vw;
+    height:100vh;
+    box-sizing:border-box;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+    flex-wrap:wrap;
+    background-image:url(https://e0.pxfuel.com/wallpapers/522/814/desktop-wallpaper-vector-landscape-%E2%80%A2-for-you-for-mobile.jpg);
+    background-size:cover;
+    background-position:center;
+    
+}
