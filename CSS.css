@@ -342,3 +342,63 @@ body{
     cursor:pointer;
     background-color:rgba(255, 255, 255, 0.4);
 }
+
+.complete2{
+    width:100%;
+    height:50px;
+    box-sizing:border-box;
+    padding:5px 10px 5px 10px;
+    background-color:#34a1eb;
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:25px;
+    font-weight:700;
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.complete1{
+    height:0;
+    width:0;
+    padding:0;
+    margin:0;
+    border:none;
+}
+.animation1{
+    animation:fadeIn 1s ease-in-out forwards;
+}
+.complete3{
+    width:100%;
+    height:50px;
+    box-sizing:border-box;
+    padding:5px 10px 5px 10px;
+    background-color:#34a1eb;
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:25px;
+    font-weight:700;
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity:0;
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity:0;
+    }
+    25%{
+        opacity:1;
+    }
+    50%{
+        opacity:1;
+    }
+    75%{
+        opacity:1;
+    }
+    100%{
+        opacity:0;
+    }
+}
