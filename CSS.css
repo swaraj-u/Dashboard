@@ -1,0 +1,404 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width:100vw;
+    height:100vh;
+    box-sizing:border-box;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+    flex-wrap:wrap;
+    background-image:url(https://e0.pxfuel.com/wallpapers/522/814/desktop-wallpaper-vector-landscape-%E2%80%A2-for-you-for-mobile.jpg);
+    background-size:cover;
+    background-position:center;
+    
+}
+
+#sidebar{
+    box-sizing:border-box;
+    padding:5px;
+    width:450px;
+    height:350px;
+    background-image:url(https://e0.pxfuel.com/wallpapers/738/89/desktop-wallpaper-simple-minimalistic-best-phone-background-no-distractions-scenery-painting-nature-simple-sunset-thumbnail.jpg);
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    flex-direction:column;
+    margin:5px;
+    border-radius:15px;
+    box-shadow:20px 20px 20px;
+}
+
+#NETitle{
+    height:50px;
+    width:100%;
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    border-bottom:2px solid white;
+    box-sizing:border-box;
+    padding-left:5px;
+}
+.NE{
+    height:50px;
+    width:100%;
+    border-radius:10px;
+    box-sizing:border-box;
+    margin:3px 0px 3px 0px;
+    display:flex;
+    flex-direction:row;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.NE:hover{
+    background-color:#ccd1d9;
+}
+.logo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.logo img{
+    width:50%;
+    height:100%;
+    border-radius:50%;
+}
+.info{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.box{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width:450px;
+    height:350px;
+    box-sizing:border-box;
+    flex-shrink:0;
+    background-color:#edeae1;
+    border-radius:15px;
+    padding:10px;
+    margin:5px;
+    box-shadow:20px 20px 20px;
+}
+
+#calendar{
+    box-sizing:border-box;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    background-image:url(https://e0.pxfuel.com/wallpapers/269/543/desktop-wallpaper-beautiful-nature-atmosphere-sky-nature.jpg);
+    background-size:cover;
+    background-position:center;
+}
+#month{
+    height:30px;
+    width:100%;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    box-sizing:border-box;
+    color:blanchedalmond;
+    font-size:20px;
+    flex-shrink:0;
+}
+#grid{
+    width:100%;
+    height:100%;
+    display:grid;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#grid .dates{
+    background-color: rgba(255, 255, 255, 0.8);
+    box-sizing:border-box;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:10px;
+    border-radius:20px;
+}
+#grid div:hover{
+    background-color:black;
+    color:white;
+}
+#grid .days{
+    background-color:#f28090;
+    color:white;
+    box-sizing:border-box;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:10px;
+    border-radius:20px;
+}
+
+#TodoList{
+    box-sizing:border-box;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    background-image:url(https://e0.pxfuel.com/wallpapers/311/303/desktop-wallpaper-dark-night-river-forest-minimal-minimal-nature.jpg);
+    background-size:cover;
+    background-position:center;
+    color:white;
+    box-shadow:20px 20px 20px black;
+}
+#TODOTitle{
+    height:40px;
+    width:100%;
+    font-size:30px;
+    box-sizing:border-box;
+    padding:5px;
+    border-bottom:2px solid black;
+    margin-bottom:5px;
+}
+.task{
+    height:50px;
+    width:100%;
+    border-radius:10px;
+    display:flex;
+    box-sizing:border-box;
+    padding:5px;
+    justify-content:space-between;
+    align-items:center;
+    
+}
+.tasks{
+    border:hidden;
+    background-color: rgba(255, 255, 255, 0);
+    font-size:20px;
+    width:350px;
+    font-weight:600;
+    color:white;
+    text-shadow: 
+    -1px -1px 0 black,  
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;;
+}
+.task:hover{
+    background-color:rgba(182,216,242 , 1);
+}
+.checkbox{
+    width:20px;
+    height:20px;
+}
+
+#BT{
+
+    display:flex;
+    flex-direction:column; 
+    background-image:url(https://i.pinimg.com/736x/59/6a/58/596a58346155aeeb5ec317682d64217d.jpg);
+    background-size:cover;
+    background-position:center;
+ }
+ #BTTitle{
+     height:50px;
+     width:100%;
+     border-bottom:2px solid black;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     display:flex;
+     justify-content:flex-start;
+     align-items:center;
+     font-size:30px;
+     color:#e3c3d2;
+ }
+ .blocks{
+     height:50px;
+     width:100%;
+     border-radius:10px;
+     box-sizing:border-box;
+     padding:5px;
+     margin:3px 0px 3px 0px;
+     display:flex;
+     justify-content:space-between;
+     align-items:center;
+     font-size:20px;
+     color:#e3c3d2;
+ }
+ .blocks:hover{
+     background-color:rgba(255, 255, 255, 0.2);
+ }
+ #income{
+     font-size:30px;
+     text-transform:bold;
+     font-weight:800;
+     color:green
+ }
+ 
+ 
+ 
+ #expense{
+     font-size:30px;
+     text-transform:bold;
+     font-weight:800;
+     color:red
+ }
+ #savings{
+     font-size:30px;
+     text-transform:bold;
+     font-weight:800;
+     color:green
+ }
+
+ #newadd{
+    box-sizing:border-box;
+    padding:10px;
+    background-image:url(https://www.teahub.io/photos/full/96-961745_nature-wallpaper-phone.png);
+    background-size:cover;
+    background-position:center;
+}
+#topbar{
+    display:grid;
+    grid-template-rows:30px;
+    grid-template-columns:1fr 3fr 1fr 1fr;
+    box-sizing:border-box;
+    padding:5px;
+    border-bottom:2px solid black;
+}
+#topbar div{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   box-sizing:border-box;
+
+}
+#topbar div img{
+    width:50%;
+    height:100%;
+}
+#topbar div img:hover{
+    background-color:rgba(255, 255, 255, 0.4);
+    border-radius:10px;
+    cursor:pointer;
+}
+.note{
+    height:50px;
+    width:100%;
+    border-radius:10px;
+    box-sizing:border-box;
+    padding:5px 5px 5px 10px;
+    margin:5px 0px 5px 0px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction:row;
+}
+.notes{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    flex-direction:column;
+    color:white;
+}
+.edit{
+    height:100%;
+    width:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    box-sizing:border-box;
+    padding:5px;
+}
+.edit img{
+    width:100%;
+    height:100%;
+    opacity:0;
+    cursor:pointer;
+}
+.note:hover .edit img{
+    opacity:0.8;
+}
+.note:hover{
+    background-color:rgba(255, 255, 255, 0.4);
+}
+#add{
+    box-sizing:border-box;
+    padding:2px;
+    height:30px;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    border-radius:10px;
+    color:white;
+}
+#add img{
+    height:100%;
+    width:30px;
+    background-color:white;
+    border-radius:10px;
+    margin-right:5px;
+}
+#add:hover{
+    cursor:pointer;
+    background-color:rgba(255, 255, 255, 0.4);
+}
+
+.complete2{
+    width:100%;
+    height:50px;
+    box-sizing:border-box;
+    padding:5px 10px 5px 10px;
+    background-color:#34a1eb;
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:25px;
+    font-weight:700;
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.complete1{
+    height:0;
+    width:0;
+    padding:0;
+    margin:0;
+    border:none;
+}
+.animation1{
+    animation:fadeIn 1s ease-in-out forwards;
+}
+.complete3{
+    width:100%;
+    height:50px;
+    box-sizing:border-box;
+    padding:5px 10px 5px 10px;
+    background-color:#34a1eb;
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:25px;
+    font-weight:700;
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity:0;
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity:0;
+    }
+    25%{
+        opacity:1;
+    }
+    50%{
+        opacity:1;
+    }
+    75%{
+        opacity:1;
+    }
+    100%{
+        opacity:0;
+    }
+}
