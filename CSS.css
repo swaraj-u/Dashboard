@@ -16,3 +16,61 @@ body{
     background-position:center;
     
 }
+
+#sidebar{
+    box-sizing:border-box;
+    padding:5px;
+    width:450px;
+    height:350px;
+    background-image:url(https://e0.pxfuel.com/wallpapers/738/89/desktop-wallpaper-simple-minimalistic-best-phone-background-no-distractions-scenery-painting-nature-simple-sunset-thumbnail.jpg);
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    flex-direction:column;
+    margin:5px;
+    border-radius:15px;
+    box-shadow:20px 20px 20px;
+}
+
+#NETitle{
+    height:50px;
+    width:100%;
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    border-bottom:2px solid white;
+    box-sizing:border-box;
+    padding-left:5px;
+}
+.NE{
+    height:50px;
+    width:100%;
+    border-radius:10px;
+    box-sizing:border-box;
+    margin:3px 0px 3px 0px;
+    display:flex;
+    flex-direction:row;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.NE:hover{
+    background-color:#ccd1d9;
+}
+.logo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.logo img{
+    width:50%;
+    height:100%;
+    border-radius:50%;
+}
+.info{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
